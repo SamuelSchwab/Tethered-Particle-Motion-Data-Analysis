@@ -71,8 +71,6 @@ class Data:
 			max_value = np.amax(histogram)
 			max_index = np.where(histogram == max_value)[0]
 			p0b = binCenters[max_index]
-			print(p0b)
-			print(self.path)
 			popt, pcov = curve_fit(fit.unimodal,binCenters,histogram, p0=[c.Config.get("FittingParam.p0a"),p0b[0],c.Config.get("FittingParam.p0c")])
 			return popt, pcov
 
@@ -98,9 +96,7 @@ class Data:
 				distance = c.Config.get("FittingParam.ModeDetectionDistance") / (self.maxRMS - self.minRMS) * len(self.yKDE)
 				foundPeaks, _ = find_peaks(self.yKDE, height = c.Config.get("FittingParam.ModeDetectionHeight"), 
 					prominence = c.Config.get("FittingParam.ModeDetectionProminence"), distance = distance)
-				print(foundPeaks)
 				peaks = self.xKDE[foundPeaks]
-				print(peaks)
 								
 				# If more than 2 peaks are found, pick the two largest peaks and perform bimodal fitting (currently no fitting for trimodal)
 				if len(peaks) > 2:
