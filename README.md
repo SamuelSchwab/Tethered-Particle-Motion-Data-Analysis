@@ -1,10 +1,4 @@
----
-author:
-- Samuel Schwab
-title: TPM Data Analysis
----
-
-# Description {#description .unnumbered}
+# Description
 
 The TPM Analysis tool was made for the Macromolecular Biochemistry
 research group at Leiden University to analyse tethered particle motion
@@ -24,15 +18,15 @@ scatter plot shows the averaged max RMS values. The empirical
 distribution function plots visualise the single datapoints of each
 dataset together with the fit function.
 
-# Installation {#installation .unnumbered}
+# Installation
 
-## Build {#build .unnumbered}
+## Build
 
 The latest build files are available at:
 <https://github.com/SamuelSchwab>. Once downloaded, unpack the zip file
 and run the TPM.exe.
 
-## Source {#source .unnumbered}
+## Source
 
 The latest source files are available at:
 <https://github.com/SamuelSchwab>. The programme is written in Python
@@ -56,7 +50,7 @@ Finally, to run the program:
 
     python TPM.py
 
-# How to use {#how-to-use .unnumbered}
+# How to use
 
 Some example data, called Example Data, can be found in the data folder.
 To run analysis on this, start the program and in the Data Analysis tab
