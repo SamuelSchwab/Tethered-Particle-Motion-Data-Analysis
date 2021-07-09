@@ -23,7 +23,7 @@ dataset together with the fit function.
 ## Build
 
 The latest build files are available at:
-<https://github.com/SamuelSchwab>. Once downloaded, unpack the zip file
+https://drive.google.com/file/d/1E7bto_Pc7FY1djh5EhhPeRAmqwd_fSEW/view?usp=sharing. Once downloaded, unpack the zip file
 and run the TPM.exe.
 
 ## Source
