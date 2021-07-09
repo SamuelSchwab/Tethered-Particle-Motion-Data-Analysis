@@ -70,5 +70,5 @@ options for the plots can be edited on the right hand side. Plots can be
 saved by checking the Saved option for the plots that you want to save.
 Then, click the bottom Save right button. Plots are saved at the
 location of the the configExport.yaml. Note: the checkboxes next to
-Histogram, 2D Histogram and Simple plot only collapse or expand the
+Histogram, 2D Histogram, Violinplot, Simple plot, and the ECDF only collapse or expand the
 options for these plots. These checkboxes serve no other purpose.
