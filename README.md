@@ -28,8 +28,7 @@ and run the TPM.exe.
 
 ## Source
 
-The latest source files are available at:
-<https://github.com/SamuelSchwab>. The programme is written in Python
+The programme is written in Python
 3.9.5, although newer also work. Create a virtual environment using the
 command prompt. I use virtualenv:
 <https://pypi.org/project/virtualenv/>. An example to create and run a
