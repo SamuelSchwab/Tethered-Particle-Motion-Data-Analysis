@@ -845,7 +845,7 @@ class DataAnalysis(QWidget):
 		maxRMS_Button_Layout = QHBoxLayout()
 
 		# Label
-		maxRMS_Label = QLabel("Minimum RMS:")
+		maxRMS_Label = QLabel("Maximum RMS:")
 
 		# Line edit
 		self.maxRMS_LineEdit = QLineEdit()
