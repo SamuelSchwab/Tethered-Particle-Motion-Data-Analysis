@@ -2,12 +2,12 @@
 
 The TPM Analysis tool was made for the Macromolecular Biochemistry
 research group at Leiden University to analyse tethered particle motion
-data. The programme loads pre-processed TPM data from data_good.txt
+data. The program loads pre-processed TPM data from data_good.txt
 files. These files contain the root mean square values of beads recorded
 during the TPM experiment. Each data_good.txt represents a single TPM
 experiment done at a certain protein concentration. The data from one
 data_good.txt file is referred to as a dataset. From these datasets, the
-programme produces five types of figures: histograms, empirical
+program produces five types of figures: histograms, empirical
 distribution function plots, 2-dimensional histograms, violin plots, and
 simple scatter plots. The histograms are used to fit a gaussian
 distribution. The mean parameter(s) from the fit, also known as the max
@@ -61,10 +61,10 @@ creates Kernel Density Estimators, bins the data, and fits the binned
 data. When it is done it will save a file containing the analysed data
 in the folder output/Example Data. This file is called
 configExport.yaml. To generate plots from this analysed data, go to the
-Plot tab in the programme and select the configExport.yaml file we just
+Plot tab in the program and select the configExport.yaml file we just
 generated in the \"Load export config\" option. Click on one of the
 buttons at the top to get a preview of a plot. For the histogram
-previews the programme will show a histogram from a random dataset. The
+previews the program will show a histogram from a random dataset. The
 options for the plots can be edited on the right hand side. Plots can be
 saved by checking the Saved option for the plots that you want to save.
 Then, click the bottom right Save button. Plots are saved at the
