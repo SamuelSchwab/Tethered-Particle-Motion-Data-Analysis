@@ -20,7 +20,7 @@ dataset together with the fit function.
 
 # Installation
 
-## Build
+## Build (Windows)
 
 The latest build files are available at:
 https://drive.google.com/file/d/11zdmCVaHsujdbRF3hYiYb0CVpPkGwn3n/view?usp=sharing. Once downloaded, unpack the zip file
